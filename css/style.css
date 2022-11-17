@@ -21,7 +21,7 @@ body {
 }
 
 .custom-nav {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   background-color: rgb(82, 82, 82) !important;
   background-size: cover;
@@ -41,7 +41,6 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  padding-left: 10px !important;
 }
 
 .navbar-nav {
@@ -53,6 +52,28 @@ h1 {
   margin: 0px 15px;
 }
 
-.navbar-toggler-icon {
-  color: white !important;
+/*Look into changing colour of nav toggle icon to white*/
+
+.jumbotron-custom {
+  background-image: url("../images//pexels-fwstudio-164005.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.lead {
+  /*align-items: flex-start !important;*/
+  /* float: left; */
+}
+
+.naomi-pic {
+  width: 90px;
+  height: 120px;
+  margin: 10px;
+  /* float: right; */
 }
