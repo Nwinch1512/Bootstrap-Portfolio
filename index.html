@@ -10,56 +10,50 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Bootstrap Portfolio Webpage</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <!-- Figure out how to change font on nav bar to white, currently set to be
-      black -->
-      <nav
-        class="navbar navbar-light"
-        style="background-color: rgb(82, 82, 82)"
-        ;
-      >
-        <h1 class="navbar-brand">Naomi Winchurch</h1>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+        <h1>Naomi Winchurch</h1>
+
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#"
-                >About me/ Contact me <span class="sr-only">(current)</span></a
+                >Work <span class="sr-only">(current)</span></a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
+              <a class="nav-link" href="#">About Me/ Contact Me</a>
             </li>
           </ul>
         </div>
       </nav>
-
+      <!-- End navigation bar -->
+    </header>
+    <main>
       <section class="jumbatron">
         <div class="jumbotron">
-          <!-- <h2 class="display-4">Hello, world!</h2> -->
+          <h2 class="display-4">Hello, world!</h2>
           <p class="lead">
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+            "Proactive, organised, good problem solver, keen to master web
+            development"
           </p>
           <hr class="my-4" />
           <!-- <p>

@@ -11,3 +11,48 @@ color: rgb(82, 82, 82);
 color: #ffffff;
 
 */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(82, 82, 82) !important;
+  background-size: cover;
+  padding-left: 10px !important;
+}
+
+.nav-link,
+h1 {
+  color: white !important;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding-left: 10px !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
