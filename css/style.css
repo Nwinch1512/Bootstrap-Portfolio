@@ -170,3 +170,8 @@ h1 {
   padding: 0 50px;
   color: #fff;
 }
+
+a:hover {
+  background-color: white;
+  color: rgb(82, 82, 82) !important;
+}
