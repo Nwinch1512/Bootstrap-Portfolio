@@ -127,6 +127,18 @@ h1 {
   border-radius: 5px;
 }
 
+.card-1,
+.card-2 {
+  max-height: 60vh;
+}
+
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  max-height: 50vh;
+}
+
 .card-7 {
   background-color: white;
   color: rgb(82, 82, 82);
