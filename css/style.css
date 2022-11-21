@@ -93,6 +93,7 @@ h2 {
 
 #about a {
   color: #fff;
+  text-decoration: none;
 }
 .cardContainer {
   /* width: 100%; */
@@ -149,15 +150,11 @@ h2 {
 }
 
 .card-1,
-.card-2 {
-  max-height: 60vh;
-}
-
-.card-3,
+.card-2 .card-3,
 .card-4,
 .card-5,
 .card-6 {
-  max-height: 50vh;
+  max-height: 60vh;
 }
 
 .card-7 {
@@ -200,4 +197,5 @@ a:hover {
   color: rgb(82, 82, 82) !important;
   transition: 1s;
   border-radius: 5px;
+  padding: 5px;
 }
