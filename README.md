@@ -1,19 +1,12 @@
 # Bootstrap-Portfolio
 
-Week three bootstrap portfolio project
-
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This repository contains all files relating to the week 3 front end coding bootcamp challenge of recreating a portfolio website using Bootstrap. I was motivated to complete this project because I wanted to learn to apply Bootstrap and appreciate the benefits that Bootstrap offers in terms of standardising content. This website showcases projects I've worked on to potential employers and highlights the skills that I plan to have developed on completion of the bootcamp. Through completing the project, I learnt how to apply Bootstrap, in particular I learnt how to customise Bootstrap's navigation bars and jumbotron to reflect my own personal style. This project also gave me the opportunity to apply CSS effects such as changing styles on hovering.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
@@ -26,6 +19,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ![Porfolio webpage wireframe](Wireframe-portfolio-page.jpeg)
+
+Please refer to the link below to access the webpage:
+
+[Portfolio website](https://nwinch1512.github.io/Bootstrap-Portfolio/ "Visit Naomi Winchurch portfolio website")
 
 ## Credits
 
