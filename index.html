@@ -10,11 +10,228 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Bootstrap Portfolio Webpage</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#work"
+                >Work <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End navigation bar -->
+      <section>
+        <div class="jumbotron jumbotron-fluid jumbotron-custom">
+          <div class="row align-items-center">
+            <div class="col">
+              <h1>Naomi Winchurch</h1>
+              <p class="lead custom-hero-text">
+                "Proactive, organised, great problem solver, keen to master web
+                development"
+              </p>
+            </div>
+            <div class="col-sm-2">
+              <img
+                class="naomi-pic"
+                src="images\Bootcamp_profile_pic.jpeg"
+                alt="photograph of Naomi Winchurch"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
     <main>
+      <!-- Cards -->
+      <div class="container-fluid">
+        <!--Skills and About Me Section-->
+        <section>
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="cardContainer col-lg-6 col-md-6 col-sm-3">
+              <div class="card-2">
+                <div class="card-body" id="about">
+                  <h2 class="card-title">About Me</h2>
+                  <p>
+                    I have extensive analysis and project management experience
+                    in both the public and private sector, as per my
+                    <a href="./CV.pdf">CV</a>. I'm highly organised and a great
+                    problem solver. I enjoy working alone and in a team. I'm
+                    currently learning web developer skills through the
+                    University of Birmingham front end developer bootcamp in
+                    partnership with edx. I'm excited to develop my technical
+                    skills and take on new challenges. In my spare time I enjoy:
+                    weightlifting, jogging, reading, playing board games with my
+                    family, cooking and drawing.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End card 1 -->
+
+            <!-- Card 2 -->
+            <div class="cardContainer col-lg-6 col-md-6 col-sm-3">
+              <div class="card-1">
+                <div class="card-body" id="skills">
+                  <h2 class="card-title">Skills</h2>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GitHub</li>
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>Microsoft Excel, Word, Powerpoint</li>
+                    <li>Agile</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End card 2 -->
+          </div>
+        </section>
+
+        <section class="work">
+          <div class="container-fluid work-heading">
+            <h2>Work</h2>
+          </div>
+          <div class="row" id="work">
+            <!-- Card 3 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card card-3">
+                <img
+                  src="images/pexels-fauxels-3184436.jpg"
+                  class="card-img"
+                  alt="picture of a diverse group of people standing in a circle and joining hands in the middle"
+                />
+                <div class="card-body">
+                  <h2 class="card-title">Horiseon webpage</h2>
+                  <p class="card-text">
+                    This project involved refactoring HTML and CSS code to make
+                    the Horiseon website more accessible by ensuring that all
+                    elements were semantic.
+                  </p>
+                  <a
+                    href="https://nwinch1512.github.io/01-HTML-CSS-Git-refactor-solution/"
+                    class="card-link"
+                    id="horiseon-webpage"
+                    >Horiseon webpage</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- End card 3 -->
+
+            <!-- Card 4 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card card-4">
+                <img
+                  src="images/pexels-pixabay-301920.jpg"
+                  class="card-img-top"
+                  alt="picture of books piled onto a table with alphabet cubes spelling the word study"
+                />
+                <div class="card-body">
+                  <h2 class="card-title">Pre-work Study Guide Webpage</h2>
+                  <p class="card-text">
+                    This project involved putting together a webpage which
+                    displayed study notes on HTML, CSS and JavaScript. The
+                    webpage was deployed on Github Pages.
+                  </p>
+                  <a
+                    href="https://nwinch1512.github.io/prework-study-guide/"
+                    class="card-link"
+                    id="pre-work-study-guide"
+                    >Pre-work Study Guide Webpage</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- End card 4 -->
+
+            <!-- Card 5 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card card-5">
+                <img
+                  src="images/pexels-oleksandr-pidvalnyi-12955818.jpg"
+                  class="card-img-top"
+                  alt="picture of a globe"
+                />
+                <div class="card-body">
+                  <h2 class="card-title">Recession Monitoring Atlas</h2>
+                  <p class="card-text">
+                    This project involved presenting unemployment data
+                    geospatially in InstantAtlas to enable policy-makers and
+                    other stakeholders to monitor the impact of the recession on
+                    the West Midlands.
+                  </p>
+                  <a
+                    href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwmro.wordpress.com%2F2009%2F11%2F23%2Finteractive-maps-help-monitor-recession-geospatially%2F&data=05%7C01%7C%7C6df463633cda43b0ef7408dac629ea31%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638040180561972369%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2BhO1kfTusJk5PGSf5Ers%2F7BIu%2BHiiQ53XpY5is8OCGw%3D&reserved=0"
+                    class="card-link"
+                    id="recession-monitoring-atlas"
+                    >Recession Monitoring Atlas</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- End card 5 -->
+
+            <!-- Card 6 -->
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card card-6">
+                <img
+                  src="images/pexels-guillaume-falco-2229887.jpg"
+                  class="card-img-top"
+                  alt="picture of ice caps melting in the Artic sea"
+                />
+                <div class="card-body">
+                  <h2 class="card-title">Measuring Carbon Gap</h2>
+                  <p class="card-text">
+                    This report presented analysis to help policy-makers
+                    quantify the carbon gap by baselining carbon emissions
+                    against reduction targets.
+                  </p>
+                  <a
+                    href="https://www.sustainabilitywestmidlands.org.uk/resources/understanding-the-west-midlands-carbon-gap/"
+                    class="card-link"
+                    id="measuring-carbon-gap"
+                    >Measuring Carbon Gap</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- End card 6 -->
+            <!-- End cards -->
+          </div>
+        </section>
+      </div>
+
       <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -33,5 +250,25 @@
     </main>
   </body>
 
-  <footer></footer>
+  <footer>
+    <section class="page-section contact" id="contact">
+      <div class="contact">
+        <h2>Contact</h2>
+      </div>
+      <div id="contact-methods">
+        <a
+          class="btn"
+          href="mailto: naomi.winchurch@hotmail.co.uk"
+          role="button"
+          >Email</a
+        >
+        <a class="btn" href="https://github.com/Nwinch1512" role="button"
+          >Github</a
+        >
+        <a class="btn" href="https://twitter.com/NaomiWinchurch" role="button"
+          >Twitter</a
+        >
+      </div>
+    </section>
+  </footer>
 </html>
