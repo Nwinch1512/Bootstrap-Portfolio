@@ -10,15 +10,13 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This website has been set up to showcase my portfolio as it develops over time. This would be useful for potential employers or anyone interested in learning more about my experience. The website has been developed to display accurately on mobile phones and desktops.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Please see below for a screenshot of the website in desktop view.
+![Porfolio webpage desktop view](Screenshot-desktop.jpeg)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-![Porfolio webpage wireframe](Wireframe-portfolio-page.jpeg)
+Please see below for a screenshot of the website in mobile view.
+![Porfolio webpage mobile view](Screenshot-mobile.jpeg)
 
 Please refer to the link below to access the webpage:
 
@@ -26,11 +24,7 @@ Please refer to the link below to access the webpage:
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+This website was partially created using Bootstrap 4.
 
 ## License
 
