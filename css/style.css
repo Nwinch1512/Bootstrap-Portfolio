@@ -84,6 +84,7 @@ h1 {
   margin-right: 0;
   margin-left: 10%;
   border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(82, 82, 82);
 }
 
 h2 {
@@ -170,11 +171,6 @@ h2 {
   min-height: 30vh;
 }
 
-.card-7 {
-  background-color: white;
-  color: rgb(82, 82, 82);
-}
-
 .card-link {
   color: white;
 }
@@ -211,4 +207,13 @@ a:hover {
   transition: 1s;
   border-radius: 5px;
   padding: 5px;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover {
+  box-shadow: 5px 5px 20px rgb(82, 82, 82);
 }
