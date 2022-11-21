@@ -67,7 +67,6 @@ h1 {
 .naomi-pic {
   width: 90px;
   height: 120px;
-  /* margin: 10px; */
   margin-right: 0;
   margin-left: 10%;
   border-radius: 5px;
@@ -93,7 +92,6 @@ h2 {
 }
 
 .card {
-  /* margin: 0 auto; */
   border: none;
   min-height: 200px;
 }
@@ -130,27 +128,7 @@ h2 {
   color: white;
   border-radius: 5px;
   margin-top: 10px;
-}
-
-.card-1,
-.card-2,
-.card-3,
-.card-4,
-.card-5,
-.card-6 {
-  max-height: 60vh;
-}
-
-.card-3,
-.card-4,
-.card-5,
-.card-6 {
-  min-height: 50vh;
-}
-
-.card-1,
-.card-2 {
-  min-height: 30vh;
+  height: 95%;
 }
 
 .card-link {
@@ -177,7 +155,7 @@ h2 {
 
 #contact a {
   text-decoration: none;
-  padding: 0 50px;
+  padding: 0;
   color: #fff;
 }
 
@@ -189,11 +167,16 @@ a:hover {
   padding: 5px;
 }
 
-.card-1:hover,
-.card-2:hover,
-.card-3:hover,
-.card-4:hover,
-.card-5:hover,
-.card-6:hover {
-  box-shadow: 5px 5px 20px rgb(82, 82, 82);
+footer .btn {
+  background-color: white;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(82, 82, 82) !important;
+  border: none;
+  margin: 5px;
+  width: 100px;
+}
+
+footer .btn:hover {
+  box-shadow: 5px 5px 5px rgb(151, 149, 149) !important;
 }
