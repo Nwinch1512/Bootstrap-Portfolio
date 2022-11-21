@@ -25,12 +25,7 @@ h1 {
 }
 
 h1 {
-  display: block;
   font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
 }
 
@@ -46,29 +41,18 @@ h1 {
 .jumbotron-custom {
   background-image: url("../images//pexels-fwstudio-164005.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   color: white;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .custom-hero-text {
-  width: 85%;
-  margin-left: 5%;
-  padding-top: 10px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 .naomi-pic {
   width: 90px;
   height: 120px;
-  margin-right: 0;
-  margin-left: 10%;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgb(82, 82, 82);
 }
