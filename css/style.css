@@ -63,24 +63,40 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-hero-text {
+  width: 85%;
+  margin-left: 5%;
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 .naomi-pic {
   width: 90px;
   height: 120px;
-  margin: 10px;
+  /* margin: 10px; */
+  margin-right: 0;
+  margin-left: 10%;
+}
+
+h2 {
+  font-size: 1.25em;
 }
 
 .cardContainer {
-  margin-top: 20px;
   /* width: 100%; */
 }
 .card {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   border: none;
   min-height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px !important;
 }
 
 /* .card-2 img {
@@ -156,13 +172,16 @@ h1 {
 }
 
 #contact h2 {
-  padding-left: 10px;
+  padding: 20px;
 }
 
 #contact-methods {
+  padding: 20px;
   justify-content: space-evenly;
-  align-items: center;
-  margin: 0 auto;
+  /* align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto; */
 }
 
 #contact a {
@@ -174,4 +193,6 @@ h1 {
 a:hover {
   background-color: white;
   color: rgb(82, 82, 82) !important;
+  transition: 1s;
+  border-radius: 5px;
 }
