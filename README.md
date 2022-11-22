@@ -13,10 +13,10 @@ N/A
 This website has been set up to showcase my portfolio as it develops over time. This would be useful for potential employers or anyone interested in learning more about my experience. The website has been developed to display accurately on mobile phones and desktops.
 
 Please see below for a screenshot of the website in desktop view.
-![Porfolio webpage desktop view](Screenshot-desktop.jpeg)
+![Porfolio webpage desktop view](/images/Screenshot-desktop.jpeg)
 
 Please see below for a screenshot of the website in mobile view.
-![Porfolio webpage mobile view](Screenshot-mobile.jpeg)
+![Porfolio webpage mobile view](/images/Screenshot-mobile.jpeg)
 
 Please refer to the link below to access the webpage:
 
